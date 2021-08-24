@@ -20,9 +20,9 @@ export default function App() {
       <ContadorNumeros />
       <ContadorBarritas />
 
-      <button onClick={() => dispatch(incrementar())}> + </button>
-      <button onClick={() => dispatch(decrementar())}> - </button>
-      <button onClick={() => dispatch(resetear())}> RESETEAR </button>
+      <button className="boton-incDec" onClick={() => dispatch(incrementar())}> + </button> 
+      <button className="boton-incDec" onClick={() => dispatch(decrementar())}> - </button>
+      <button className="boton-reset" onClick={() => dispatch(resetear())}> RESET </button>
     </div>
   );
 }
