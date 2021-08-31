@@ -1,17 +1,17 @@
-export const incrementar = () => {
+export const hacerItem = () => {
   return {
-    type: "INCREMENTAR_CONTADOR",
+    type: "ITEM_HACIENDO",
   }
 }
 
-export const decrementar = () => {
+export const terminarItem = () => {
   return {
-    type: "DECREMENTAR_CONTADOR",
+    type: "ITEM_LISTO",
   }
 }
 
-export const resetear = () => {
+export const pedirDelivery = () => {
   return {
-    type: "RESETEAR_CONTADOR"
+    type: "DELIVERY_ENCAMINO"
   }
 }
