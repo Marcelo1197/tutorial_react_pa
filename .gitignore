@@ -112,5 +112,5 @@ dist
 
 # borrador
 
-./src/redux/_borrador.js
+src/redux/_borrador.js
 
