@@ -1,0 +1,28 @@
+{
+    "pedidos": [
+        {
+            "id": 111,
+            "items": [
+                "bife",
+                "pure",
+                "ensalada"
+            ]
+        },
+        {
+            "id": 222,
+            "items": [
+                "milanesa",
+                "papas fritas",
+                "mayonesa"
+            ]
+        },
+        {
+            "id": 333,
+            "items": [
+                "ñoquis",
+                "salsa blanca",
+                "estofado"
+            ]
+        }
+    ]
+}

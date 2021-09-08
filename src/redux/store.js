@@ -1,8 +1,11 @@
 import { createStore } from "redux";
 
-import { reducerPedido } from "./reducers";
+import { reducerItem } from "./reducers";
 
 //DBG 
 const REDUX_DEVTOOLS_ON = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__();
 
-export const store = createStore(reducerPedido, 0, REDUX_DEVTOOLS_ON);
+const stateInicial = {
+    itemsPedido: [],
+}
+export const store = createStore(reducerItem, REDUX_DEVTOOLS_ON);

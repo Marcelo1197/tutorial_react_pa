@@ -1,17 +1,20 @@
-export const hacerItem = () => {
+export const seleccionarItem = (itemId) => {
   return {
-    type: "ITEM_HACIENDO",
+    type: "ITEM_SELECCIONADO",
+    payload: {
+      itemId,
+    }
   }
 }
 
-export const terminarItem = () => {
-  return {
-    type: "ITEM_LISTO",
-  }
-}
 
-export const pedirDelivery = () => {
+export const pedirDelivery = (pedidoId) => {
+  console.log(`PEDIDO ${pedidoId} LISTO. DELIVERY EN CAMINO.`);
+  
   return {
-    type: "DELIVERY_ENCAMINO"
+    type: "DELIVERY_ENCAMINO",
+    payload: {
+      pedidoId,
+    }
   }
 }
